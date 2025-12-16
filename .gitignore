@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Build output (optional if you want to deploy only compiled files manually)
+dist/
+out/
+*.js
+*.js.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env

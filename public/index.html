@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHIP-8 Emulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <section>
+      <div id="display-root"></div>
+    </section>
+
+    <div class="sidebar">
+      <h1>CHIP-8 Emulator</h1>
+
+      <div class="section">
+        <label>Local ROMs</label>
+        <select id="romSelect">
+          <option value="/roms/Space%20Invaders.ch8">Space Invaders</option>
+          <option value="/roms/Pong.ch8">PONG</option>
+          <option value="/roms/Tetris.ch8">TETRIS</option>
+        </select>
+        <button id="loadLocalROM">Load local</button>
+      </div>
+
+      <div class="section">
+        <div class="block">
+          <label>Custom ROMs</label>
+          <input type="file" id="romFile" accept=".ch8,.rom,.bin" />
+          <button id="loadCustomROM">Load custom</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
