@@ -1,8 +1,8 @@
-import { PROGRAM_START  } from "./constants";
-import { Memory } from "./memory";
-import { Display } from "./display";
-import { Timers } from "./timers";
-import { Keyboard } from "./keyboard";
+import { PROGRAM_START  } from "./constants.js";
+import { Memory } from "./memory.js";
+import { Display } from "./display.js";
+import { Timers } from "./timers.js";
+import { Keyboard } from "./keyboard.js";
 
 export class CPU {
     V = new Uint8Array(16);

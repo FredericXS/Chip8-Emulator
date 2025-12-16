@@ -1,4 +1,4 @@
-import { MEMORY_SIZE, PROGRAM_START } from "./constants";
+import { MEMORY_SIZE, PROGRAM_START } from "./constants.js";
 
 export class Memory {
     ram = new Uint8Array(MEMORY_SIZE);

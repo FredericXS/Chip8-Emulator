@@ -1,10 +1,10 @@
-import { CYCLES_PER_FRAME, KEYBOARD_MAP } from "./constants";
-import { CPU } from "./cpu";
-import { Memory } from "./memory";
-import { Display } from "./display";
-import { Timers } from "./timers";
-import { Keyboard } from "./keyboard";
-import { Sound } from "./sound";
+import { CYCLES_PER_FRAME, KEYBOARD_MAP } from "./constants.js";
+import { CPU } from "./cpu.js";
+import { Memory } from "./memory.js";
+import { Display } from "./display.js";
+import { Timers } from "./timers.js";
+import { Keyboard } from "./keyboard.js";
+import { Sound } from "./sound.js";
 
 const memory = new Memory();
 const display = new Display();

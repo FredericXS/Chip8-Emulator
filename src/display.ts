@@ -1,4 +1,4 @@
-import { SCREEN_WIDTH, SCREEN_HEIGHT } from "./constants";
+import { SCREEN_WIDTH, SCREEN_HEIGHT } from "./constants.js";
 
 export class Display {
     pixels = new Uint8Array(SCREEN_WIDTH * SCREEN_HEIGHT);
